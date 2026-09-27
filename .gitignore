@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Terraform (¡Crítico: no subir estado local ni locks pesados!)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Streamlit
+.streamlit/
+
+# OS / Editor
+.vscode/
+.idea/
+Thumbs.db
